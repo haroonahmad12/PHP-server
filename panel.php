@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -6,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/cheatsheet.css">
+
     <title>Profile</title>
 </head>
 
@@ -31,7 +32,7 @@
                     </li>
 
                 </ul>
-                <form class="form-inline">
+                <form class="form-inline" action="./logout.php" method="POST">
                     <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Sign Out</button>
                 </form>
             </div>
